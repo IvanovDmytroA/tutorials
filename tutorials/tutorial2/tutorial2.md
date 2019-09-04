@@ -20,6 +20,7 @@ author_profile: https://github.com/adadouche
 ## Details
 ### You will learn  
 TEST22222
+[This is my tutorial link](http://localhost:4502/content/developers/website/languages/en/tutorials0/tutorial2)
 
 UPDATED DETAILS
 

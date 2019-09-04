@@ -17,6 +17,7 @@ time: 44
 
 ## Details
 ### You will learn  
+[This is my tutorial link](tutorials0/tutorial2)
 TEST2
 
 
@@ -96,8 +97,6 @@ We are currently in open beta for the new SAP community. Here's your opportunity
 
 [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2017/12/746085f5-e27c-0010-82c7-eda71af511fa.mp4)]
 ###### This is an h6 header
-
-[This is my tutorial link](tutorials0/tutorial2)
 
 [DONE]
 [ACCORDION-END]
