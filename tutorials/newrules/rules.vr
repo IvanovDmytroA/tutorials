@@ -1,0 +1,105 @@
+[VALIDATE_1]
+
+###Rule
+regex
+
+###Match
+^https:\/\/account.hanatrial.ondemand.com\/cockpit\/.*\/\w\d+trial\/
+
+[VALIDATE_1]
+
+[VALIDATE_2]
+
+###Rule
+regex
+
+###Match
+ [0-9]*\.?[0-9]+,[0-9]*\.?[0-9]+,[0-9]*\.?[0-9]+,[0-9]*\.?[0-9]+,[0-9]*\.?[0-9]+,[0-9]*\.?[0-9]+,[0-9]*\.?[0-9]+,[0-9]*\.?[0-9]+,[0-9]*\.?[0-9]+,[0-9]*\.?[0-9]+,[0-9]*\.?[0-9]+
+
+[VALIDATE_2]
+
+[VALIDATE_5]
+
+###Rule
+exact-match
+
+###Match
+my answer to this question is yes
+
+[VALIDATE_5]
+
+
+
+[VALIDATE_6]
+
+###Rule
+regex-begins-with
+
+###Match
+https://account.hanatrial.ondemand.com/cockpit/#/acc/[id]trial
+
+[VALIDATE_6]
+
+[VALIDATE_7]
+
+###Rule
+regex-with-id-exact-match
+
+###Match
+https://account.hanatrial.ondemand.com/cockpit/#/acc/[id]trial/accountdashboard
+
+[VALIDATE_7]
+
+[VALIDATE_10]
+
+###Rule
+regex-with-id-exact-match
+
+###Match
+https://account.hanatrial.ondemand.com/cockpit/#/acc/[id]trial
+
+[VALIDATE_10]
+
+[VALIDATE_8]
+###Rule
+single-choice
+
+###Question
+Who you are? (answer is QA)
+
+###Match
+[ ] Developer
+[ ] BA
+[x] QA
+[ ] Boss
+[ ] Waiter
+[ ] Lawyer
+[ ] Doctor
+[ ] Accountant
+[ ] Pilot
+[ ] Teacher
+[ ] Manager
+[ ] Housewife
+[ ] Economist
+[VALIDATE_8]
+
+
+
+[VALIDATE_9]
+###Rule
+multiple-choice
+
+###Question
+What do you like? (answer are comedy, adventure, horror)
+
+###Match
+[x] comedy
+[ ] drama
+[ ] fantastic
+[x] horror
+[ ] melodrama
+[ ] thriller
+[X] adventure
+[ ] erotic
+[ ] documentary
+[VALIDATE_9]
