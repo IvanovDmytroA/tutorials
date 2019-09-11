@@ -38,7 +38,7 @@ This is my tutorial [link](tutorial2)
 
 This is my tutorial anchor [link](#tutorial2)
 
-This is my group [link](group.testgroup)
+This is my group [link](group.testgroup)!
 
 This is my group [link](group.test-group)
 
