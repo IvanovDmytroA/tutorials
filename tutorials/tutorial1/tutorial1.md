@@ -36,7 +36,7 @@ Select a tutorial from the [Tutorial Navigator](http://go.sap.com/developer/tuto
 
 This is my tutorial [link](tutorial2)
 
-This is my tutorial anchor [link](#tutorial2)!!
+This is my tutorial anchor [link](#tutorial2)
 
 This is my group [link](group.test)
 
