@@ -36,11 +36,11 @@ Select a tutorial from the [Tutorial Navigator](http://go.sap.com/developer/tuto
 
 http://localhost:4502/content/developers/website/languages/en/tutorials0/tutorial2.html
 
-This is my tutorial [link](http://localhost:4502/content/developers/website/languages/en/tutorials0/tutorial2.html)
+This is my tutorial [link](tutorial2.html)
 
-This is my tutorial anchor [link](shttps://localhost:4502/content/developers/website/languages/en/tutorials0/tutorial2.html)
+This is my tutorial anchor [link](#tutorial2.html)
 
-This is my group [link](https://localhost:4502/content/developers/website/languages/en/tutorials0/tutorial2.html)
+This is my group [link](group.)
 
 This is my group [link](http://127.0.0.1:4502/content/developers/website/languages/en/tutorials0/tutorial2.html)!
 
