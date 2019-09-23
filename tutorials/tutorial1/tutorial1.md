@@ -38,7 +38,7 @@ This is my tutorial [link](tutorial2)
 
 This is my tutorial anchor [link](#tutorial2)
 
-This is my group [link](group.test)
+This is my group [link](http://localhost:4502/content/developers/website/languages/en/tutorials0/tutorial2.html)
 
 This is my group [link](http://127.0.0.1:4502/content/developers/website/languages/en/tutorials0/tutorial2.html)
 
