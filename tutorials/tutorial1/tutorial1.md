@@ -40,7 +40,7 @@ This is my tutorial anchor [link](#tutorial2)
 
 This is my group [link](group.test)
 
-This is my group [link](group.test-group)
+This is my group [link](http://localhost:4502/content/developers/website/languages/en/tutorials0/tutorial2.html)
 
 [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2017/12/746085f5-e27c-0010-82c7-eda71af511fa.mp4)]
 
