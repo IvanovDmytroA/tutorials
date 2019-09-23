@@ -36,7 +36,7 @@ Select a tutorial from the [Tutorial Navigator](http://go.sap.com/developer/tuto
 
 http://localhost:4502/content/developers/website/languages/en/tutorials0/tutorial2.html
 
-This is my tutorial [link](http://localhost:4502/content/developers/website/languages/en/tutorials0/tutorial2.html)!
+This is my tutorial [link](http://localhost:4502/content/developers/website/languages/en/tutorials0/tutorial2.html)
 
 This is my tutorial anchor [link](shttps://localhost:4502/content/developers/website/languages/en/tutorials0/tutorial2.html)
 
