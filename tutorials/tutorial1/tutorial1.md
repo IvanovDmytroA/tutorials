@@ -34,15 +34,13 @@ TEST2
 [ACCORDION-BEGIN [test](Accordion component which contains link(s) in Body)]
 Select a tutorial from the [Tutorial Navigator](http://go.sap.com/developer/tutorial-navigator.html) or the [Tutorial Catalog](http://go.sap.com/developer/tutorials.html)
 
-http://localhost:4502/content/developers/website/languages/en/tutorials0/tutorial2.html
+This is my tutorial [link](tutorial2)
 
-This is my tutorial [link](http://localhost:4502/content/developers/website/languages/en/tutorials0/tutorial2.html)
-
-This is my tutorial anchor [link](https://localhost:4502/content/developers/website/languages/en/tutorials0/tutorial2.html)
+This is my tutorial anchor [link](#tutorial2)
 
 This is my group [link](group.test)
 
-This is my group [link](http://127.0.0.1:4502/content/developers/website/languages/en/tutorials0/tutorial2.html)!
+This is my group [link](http://127.0.0.1:4502/content/developers/website/languages/en/tutorials0/tutorial2.html)
 
 [EMBEDDED-VIDEO [](/content/dam/site/sapcom/multimedia/2017/12/746085f5-e27c-0010-82c7-eda71af511fa.mp4)]
 
