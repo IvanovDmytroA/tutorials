@@ -5,6 +5,7 @@ tags: [tutorial:product/sapHana, tutorial:experience/beginner]
 primary_tag: tutorial:product/sapHana
 author_name: AE21
 author_profile: https://github.com/adadouche
+time: 44
 ---
 
 
