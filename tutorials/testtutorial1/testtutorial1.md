@@ -40,7 +40,7 @@ This is my tutorial [link](tutorial2) communityBaseComponent
 
 This is my tutorial anchor [link](#tutorial2)
 
-This is my group [link](http://localhost:4004/testLink) !!!!
+This is my group [link](https://localhost:4004/testLink) !!!!
 
 This is my group [link](https://localhost_4004testlink.html) !!!!
 
