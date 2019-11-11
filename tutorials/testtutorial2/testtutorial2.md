@@ -1,6 +1,6 @@
 ---
 title: TutorialTopaz10_updated 1803 update
-description: 2 new types of rules 2007_1
+description: This mission introduces you to OData, shows you the SAP Cloud Platform tools for working with OData, and guides you in building a simple OData backend service, with data in an SAP HANA database. NOTE: It is helpful if you have already done the  mission first. <a href="https://developers.sap.com/mission.scp-1-start-developing.html">Start Developing on SAP Cloud Platform</a>
 tags: [tutorial:product/sapHana, tutorial:experience/beginner]
 primary_tag: tutorial:product/sapHana
 author_name: AE21
