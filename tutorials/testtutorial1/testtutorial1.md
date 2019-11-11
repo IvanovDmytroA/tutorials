@@ -1,6 +1,6 @@
 ---
 title: TutorialTopaz4_updated 1803 update
-description: This mission introduces you to OData, shows you the SAP Cloud Platform tools for working with OData, and guides you in building a simple OData backend service, with data in an SAP HANA database. NOTE: It is helpful if you have already done the  mission first. <a href="https://developers.sap.com/mission.scp-1-start-developing.html">AAA</a>
+description: <h1>This mission</h1> introduces you to OData, shows you the SAP Cloud Platform tools for working with OData, and guides you in building a simple OData backend service, with data in an SAP HANA database. NOTE: It is helpful if you have already done the  mission first. <a href="https://developers.sap.com/mission.scp-1-start-developing.html">AAA</a>
 tags: [  tutorial>beginner, topic>cloud, topic>java]
 primary_tag: tutorial:product/sapHana
 author_name: Abdel DADOUCHE egergeg
