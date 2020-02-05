@@ -9,7 +9,7 @@ author_name: Abdel DADOUCHE egergeg
 ---
 
 ## Prerequisites
- - You have access to SAP Business Application Studio.
+ - You have access to SAP Business Application Studio!
  - A destination to ES5 is configured in the subaccount from which you accessed the SAP Business Application Studio.
  - A UAA service instance is available in the space to which you will logon.
  - A Destination service instance is available in the space to which you will logon.
