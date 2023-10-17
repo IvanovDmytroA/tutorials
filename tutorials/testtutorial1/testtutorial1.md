@@ -5,7 +5,7 @@ time: 10
 tags: [ tutorial>beginner, topic>artificial-intelligence ]
 author_name: Dmytro Ivanov
 author_profile: https://github.com/IvanovDmytroA
-contributors: [ Dmytro Ivanov > IvanovDmytroA, Oleksandra Kovtunenko > Oleksandra2]
+contributors: [ Dmytro Ivanov>https://github.com/IvanovDmytroA, Oleksandra Kovtunenko>https://github.com/Oleksandra2 ]
 primary_tag: software-product>sap-ai-core
 parser: v2
 ---
