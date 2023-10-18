@@ -2,7 +2,7 @@
 keywords: Azure Bucket
 auto_validation: true
 time: 10
-tags: [ tutorial>beginner, topic>artificial-intelligence ]
+tags: [ tutorial>beginner, topic>artificial-intelligence, tutorial>free-tier  ]
 author_name: Dmytro Ivanov
 author_profile: https://github.com/IvanovDmytroA
 contributors: [ Dmytro Ivanov>https://github.com/IvanovDmytroA, Oleksandra Kovtunenko>https://github.com/Oleksandra2 ]
