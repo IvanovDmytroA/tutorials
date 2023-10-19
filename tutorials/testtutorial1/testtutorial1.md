@@ -2,7 +2,7 @@
 keywords: Azure Bucket
 auto_validation: true
 time: 10
-tags: [ tutorial>beginner, topic>artificial-intelligence, tutorial>free-tier  ]
+tags: [ tutorial>beginner, software-product>sap-business-technology-platform, topic>artificial-intelligence, tutorial>free-tier  ]
 author_name: Dmytro Ivanov
 author_profile: https://github.com/IvanovDmytroA
 contributors: [ Dmytro Ivanov>https://github.com/IvanovDmytroA, Oleksandra Kovtunenko>https://github.com/Oleksandra2 ]
@@ -10,7 +10,7 @@ primary_tag: software-product>sap-ai-core
 parser: v2
 ---
 # Setup Azure Data Bucket with AI Core
-<!-- description -->Set up azure bucket (Azure Blob Storage) with SAP AI Core.
+<!-- description -->Set up azure bucket (Azure Blob Storage) with SAP AI Core
 
 ## Prerequisites
 - An existing Azure account with Admin access to create and use Azure Data store.
