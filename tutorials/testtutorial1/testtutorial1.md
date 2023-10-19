@@ -10,7 +10,7 @@ primary_tag: software-product>sap-ai-core
 parser: v2
 ---
 # Setup Azure Data Bucket with AI Core
-<!-- description -->Set up azure bucket (Azure Blob Storage) with SAP AI Core
+<!-- description -->Set up azure bucket (Azure Blob Storage) with SAP AI Core.
 
 ## Prerequisites
 - An existing Azure account with Admin access to create and use Azure Data store.
