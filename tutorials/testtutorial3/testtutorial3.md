@@ -1,5 +1,5 @@
 ---
-keywords: Azure Bucket
+keywords: Azure
 auto_validation: true
 time: 10
 tags: [ tutorial>beginner, software-product>sap-business-technology-platform, topic>artificial-intelligence, tutorial>free-tier  ]
@@ -9,7 +9,7 @@ contributors: [ Dmytro Ivanov>https://github.com/IvanovDmytroA, Oleksandra Kovtu
 primary_tag: software-product>sap-ai-core
 parser: v2
 ---
-# Setup Azure Data Bucket with AI Core
+# Setup Azure Data Bucket with AI Core Test Tutorial
 <!-- description -->Set up azure bucket (Azure Blob Storage) with SAP AI Core.
 
 ## Prerequisites
