@@ -67,7 +67,7 @@ Create a communication scenario and assign the outbound service to it. This will
 
 1. In ADT, mark the created package under `ZLOCAL` or in Favorite Packages and click on **File** and choose **New > Other... > Communication Scenario**:
 
-    ![Create Communication Scenario](create_communication_scenario.png)
+![Create Communication Scenario](create_communication_scenario.png)
 
 2. Provide:
     <ol type="a"><li>Name: `ZBPA2X_CS_BUPA`
