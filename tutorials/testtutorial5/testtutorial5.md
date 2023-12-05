@@ -67,29 +67,6 @@ Create a communication scenario and assign the outbound service to it. This will
 
 1. In ADT, mark the created package under `ZLOCAL` or in Favorite Packages and click on **File** and choose **New > Other... > Communication Scenario**:
 
-![Create Communication Scenario](create_communication_scenario.png)
-
-2. Provide:
-    <ol type="a"><li>Name: `ZBPA2X_CS_BUPA`
-    </li><li>Description: `Business Partner Outbound Service Call`
-
-      ![Create Communication Scenario 2](create_communication_scenario_2.png)</li></ol>
-
-3. Use the transport request created before and choose **Finish**
-
-4. Select "One instance per client" from the **Allowed Instances** dropdown list
-
-    ![Create Communication Scenario 3](create_communication_scenario_3.png)
-
-5. Choose Tab **Outbound** and Add the Outbound Service created before: `ZBPA2X_OBS_BUPA_REST`
-
-6. Verify that the Authentication Methods **Basic** and **OAuth 2.0** are selected and choose **SAML 2.0 Bearer Assertion** from the dropdown list of the **OAuth 2.0 Grant Type**
-
-    ![Create Communication Scenario 4](create_communication_scenario_4_2.png)
-
-7. Save the communication scenario.
-
-8. Choose **Publish Locally**.
 
 ### Download Service Metadata File
 
