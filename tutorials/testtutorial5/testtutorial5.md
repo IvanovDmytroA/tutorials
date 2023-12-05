@@ -29,19 +29,6 @@ parser: v2
 
 Azure Data Store refers to a collection of data storage solutions offered by Microsoft Azure, [Link](http://localhost/test.html) including Azure Blob Storage, Azure Data Lake Storage, Azure Queue Storage [Link](http://127.0.0.1/test.html) , and Azure Table Storage. These solutions provide scalable, highly available, [local host](http://127.0.0.1:8080) and secure data storage options for a variety of use cases, [local host](http://localhost:8080) such as big data analytics, `NoSQL` databases, content delivery, and message queuing.
 
-
-### Create a Development Package
-
-Create your own ABAP development package, which will serve as the basis for the development artifacts to be created.
-
-1. Open Eclipse and connect to your system.
-
-2. Right click the main package `ZLOCAL` and choose **New > ABAP Package**.
-
-3. Create your own ABAP development package as a sub package of `ZLOCAL` using Software Component `ZLOCAL`. Create a new Transport Request for this purpose.
-	<ol type="a"><li>Name: `ZBPA2X`
-	</li><li>Description: `BP A2X Outbound Call Tutorial`</li></ol>
-
 ### Create an Outbound Service
 
 Create an outbound service object, which models the outbound call that will be implemented. The outbound service will be part of a custom communication scenario.
