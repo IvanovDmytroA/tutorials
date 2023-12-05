@@ -30,50 +30,75 @@ parser: v2
 Azure Data Store refers to a collection of data storage solutions offered by Microsoft Azure, [Link](http://localhost/test.html) including Azure Blob Storage, Azure Data Lake Storage, Azure Queue Storage [Link](http://127.0.0.1/test.html) , and Azure Table Storage. These solutions provide scalable, highly available, [local host](http://127.0.0.1:8080) and secure data storage options for a variety of use cases, [local host](http://localhost:8080) such as big data analytics, `NoSQL` databases, content delivery, and message queuing.
 
 
-### System Setup
-For Detailed docs refer : [AI Core Setup](https://developers.sap.com/tutorials/ai-core-setup.html)
+### Create a Development Package
 
-- Downloading `config` for Postman
+Create your own ABAP development package, which will serve as the basis for the development artifacts to be created.
 
-Go to [AI core API](https://api.sap.com/api/AI_CORE_API/overview) and download the JSON File.
+1. Open Eclipse and connect to your system.
 
-![image](img/download-json.png)
+2. Right click the main package `ZLOCAL` and choose **New > ABAP Package**.
 
-- Open Postman and in the Top right corner click on Import.
+3. Create your own ABAP development package as a sub package of `ZLOCAL` using Software Component `ZLOCAL`. Create a new Transport Request for this purpose.
+  <ol type="a"><li>Name: `ZBPA2X`
+  </li><li>Description: `BP A2X Outbound Call Tutorial`</li></ol>
 
-![image](img/create-collection.png)
+### Create an Outbound Service
 
-- Under file click on Choose file and Select the Json that you just downloaded.
+Create an outbound service object, which models the outbound call that will be implemented. The outbound service will be part of a custom communication scenario.
 
-![image](img/import-json.png)
+1. Mark the created package under `ZLOCAL` or in Favorite Packages and click on **File** and choose **New > Other... > Outbound Service**:
 
-- Once the Import is done you will be able to see the Postman `config`.
+    ![Create Outbound Service](create_outbound_service.png)
 
-![image](img/postman.png)
+2. Provide:
+    <ol type="a"><li>Outbound Service: `ZBPA2X_OBS_BUPA`
+    </li><li>Description: `Business Partner Outbound Service`
+    </li><li>Service Type: `HTTP Service`
 
-###  Creating Object store Secret
+      ![Create Outbound Service 2](create_outbound_service_2.png)</li></ol>
 
-At Postman at AI core API Go to admin > Object store secret > create object store secret.
-And set the following json as body
-```Python
-{
-	"name": "default",
-	"type": "azure",
-	"pathPrefix": "<path prefix to be appended>",
-	"data": {
-		"CONTAINER_URI": "https://account_name.blob.core.windows.net/container_name",  
-		"REGION": "<region-name>",                  
-		"CLIENT_ID": "<azure-client-id>",         
-		"CLIENT_SECRET": "<azure-client-secret>",  
-		"STORAGE_ACCESS_KEY": "sas_token",          
-		"TENANT_ID": "azure tenant id",             
-		"SUBSCRIPTION_ID": "subscription id",      
-	}
-}
-```
+3. Choose **Next**
 
-Once Its done click on Send
+4. Use the transport request created before and choose **Finish**.
 
-![image](img/postman-call.png)
+### Create a Communication Scenario
 
-Hence Your Object Store secret for Azure Data buckets is created.
+Create a communication scenario and assign the outbound service to it. This will be the basis for the outbound communication arrangement, which will be configured by an administrator at a later point. Keep in mind that the developer defines which authentication methods are supported, while the administrator decides which authentication method is ultimately used at runtime.
+
+1. In ADT, mark the created package under `ZLOCAL` or in Favorite Packages and click on **File** and choose **New > Other... > Communication Scenario**:
+
+    ![Create Communication Scenario](create_communication_scenario.png)
+
+2. Provide:
+    <ol type="a"><li>Name: `ZBPA2X_CS_BUPA`
+    </li><li>Description: `Business Partner Outbound Service Call`
+
+      ![Create Communication Scenario 2](create_communication_scenario_2.png)</li></ol>
+
+3. Use the transport request created before and choose **Finish**
+
+4. Select "One instance per client" from the **Allowed Instances** dropdown list
+
+    ![Create Communication Scenario 3](create_communication_scenario_3.png)
+
+5. Choose Tab **Outbound** and Add the Outbound Service created before: `ZBPA2X_OBS_BUPA_REST`
+
+6. Verify that the Authentication Methods **Basic** and **OAuth 2.0** are selected and choose **SAML 2.0 Bearer Assertion** from the dropdown list of the **OAuth 2.0 Grant Type**
+
+    ![Create Communication Scenario 4](create_communication_scenario_4_2.png)
+
+7. Save the communication scenario.
+
+8. Choose **Publish Locally**.
+
+### Download Service Metadata File
+
+Obtain the service metadata file to be able to create the service consumption model in the next step.
+
+1. In the browser access the business Partner API directly in the SAP Business Accelerator Hub. Use [Business Partner (A2X)](https://api.sap.com/api/API_BUSINESS_PARTNER/overview)
+
+2. Choose API Specification
+
+3. Choose to download the EDMX file
+
+  ![Download Metadata](download_metadata.png)
