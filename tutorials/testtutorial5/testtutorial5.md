@@ -115,7 +115,7 @@ Create a service consumption model for the targeted OData service from the metad
     </li><li>Description: `Service Consumption Model Business Partner`
     </li><li>Remote Consumption Mode: `OData`
 
-      ![Create Service Consumption Model 2](create_service_consumption_model_2.png)</li></ol>
+    ![Create Service Consumption Model 2](create_service_consumption_model_2.png)</li></ol>
 
 3. Choose **Next**
 
@@ -131,4 +131,4 @@ Create a service consumption model for the targeted OData service from the metad
 
 8. Select a transport request and choose **Finish**
 
-The creation of the Service Consumption Model can take a few seconds. Save and activate the Service Consumption Model.
+The creation of the Service Consumption Model can take a few seconds. Save and activate the Service Consumption Model
