@@ -100,7 +100,7 @@ Obtain the service metadata file to be able to create the service consumption mo
 
 3. Choose to download the EDMX file
 
-  ![Download Metadata](download_metadata.png)
+    ![Download Metadata](download_metadata.png)
 
 ### Create a Service Consumption Model
 
