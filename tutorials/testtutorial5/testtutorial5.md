@@ -100,8 +100,6 @@ Obtain the service metadata file to be able to create the service consumption mo
 
 3. Choose to download the EDMX file
 
-    ![Download Metadata](download_metadata.png)
-
 ### Create a Service Consumption Model
 
 Create a service consumption model for the targeted OData service from the metadata file. This generates a number of proxy objects and greatly simplifies the remote service call in your ABAP code.
