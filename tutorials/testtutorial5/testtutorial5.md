@@ -107,7 +107,7 @@ Obtain the service metadata file to be able to create the service consumption mo
 Create a service consumption model for the targeted OData service from the metadata file. This generates a number of proxy objects and greatly simplifies the remote service call in your ABAP code.
 
 1. In ADT, mark the package created in the previous tutorial of this tutorial group (`ZBPA2X`) under `ZLOCAL` or in Favorite Packages and click on **File** and choose **New > Other... > Service Consumption Model**:
-  
+
     ![Create Service Consumption Model](create_service_consumption_model.png)
 
 2. Provide:
