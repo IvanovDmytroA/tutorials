@@ -2,7 +2,7 @@
 keywords: Azure
 auto_validation: true
 time: 10
-tags: [ tutorial>beginner, software-product>sap-business-technology-platform, topic>artificial-intelligence, tutorial>free-tier  ]
+tags: [ tutorial>beginner, software-product>sap-business-technology-platform  ]
 author_name: Dmytro Ivanov
 author_profile: https://github.com/IvanovDmytroA
 contributors: [ Dmytro Ivanov>https://github.com/IvanovDmytroA, Oleksandra Kovtunenko > https://github.com/Oleksandra2 ]
