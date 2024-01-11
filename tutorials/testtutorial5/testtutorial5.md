@@ -129,6 +129,6 @@ Create a service consumption model for the targeted OData service from the metad
 
 The creation of the Service Consumption Model can take a few seconds. Save and activate the Service Consumption Model
 
-### Next Steps
+### Next Step
 
 We believe that community is for everyone, and we welcome you to ours! We are here to help you on your learning journey!
