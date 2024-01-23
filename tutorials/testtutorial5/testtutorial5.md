@@ -21,7 +21,7 @@ parser: v2
 
 ## You will learn
 - About Azure data store?
-- To setup Azure for use with AI core
+- To setup Azure for use with AI core?
 - Setup Azure data buckets for use with AI Core.
 
  ## Intro
