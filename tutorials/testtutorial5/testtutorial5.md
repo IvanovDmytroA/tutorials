@@ -2,7 +2,8 @@
 keywords: Azure
 auto_validation: true
 time: 10
-tags: [ tutorial>beginner, software-product>sap-business-technology-platform  ]
+tags: tags: [ tutorial>intermediate, topic>cloud, software-product>sap-business-technology-platform, software-product>sap-build, software-product>sap-build-work-zone--advanced-edition,
+software-product>sap-build-apps, software-product>sap-build-process-automation ]
 author_name: Dmytro Ivanov
 author_profile: https://github.com/IvanovDmytroA
 contributors: [ Dmytro Ivanov>https://github.com/IvanovDmytroA, Oleksandra Kovtunenko > https://github.com/Oleksandra2 ]
@@ -20,8 +21,8 @@ parser: v2
 >**IMPORTANT** Before you start this tutorial with SAP AI Launchpad, it is recommended that you should set up at least one other tool, either Postman or Python (SAP AI Core SDK) because some steps of this tutorial cannot be performed with SAP AI Launchpad.
 
 ## You will learn
-- About Azure data store
-- To setup Azure for use with AI core
+- About Azure data store?
+- To setup Azure for use with AI core?
 - Setup Azure data buckets for use with AI Core.
 
  ## Intro
