@@ -46,11 +46,11 @@ To do this, as the administrator, logon to the Fiori Launchpad for the consumer 
 
     The first option is to create individual employees
 
-    1. Click the Create button in the app.
+        1. Click the Create button in the app.
 
-    2. Enter at least the mandatory fields in the form under both the "General Information" and "Contact Information" sections
+        2. Enter at least the mandatory fields in the form under both the "General Information" and "Contact Information" sections
 
-    3. Click "Create"
+        3. Click "Create"
 
     [OPTION END]
 
@@ -59,15 +59,15 @@ To do this, as the administrator, logon to the Fiori Launchpad for the consumer 
     The second option is to import employee records from Excel
     ![Import Employees](ImportEmployees.png)
 
-    1. Click the Import button in the app
+        1. Click the Import button in the app
 
-    2. Download the template with a delimiter of your choice
+        2. Download the template with a delimiter of your choice
 
-    3. Fill in the downloaded excel with employee details conforming to the template specified
+        3. Fill in the downloaded excel with employee details conforming to the template specified
 
-    4. Use the browse button to find and upload the excel file
+        4. Use the browse button to find and upload the excel file
 
-    5. Click Import
+        5. Click Import
 
     [OPTION END]
 
