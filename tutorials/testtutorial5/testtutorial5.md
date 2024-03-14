@@ -2,8 +2,7 @@
 keywords: Azure
 auto_validation: true
 time: 10
-tags: tags: [ tutorial>intermediate, topic>cloud, software-product>sap-business-technology-platform, software-product>sap-build, software-product>sap-build-work-zone--advanced-edition,
-software-product>sap-build-apps, software-product>sap-build-process-automation ]
+tags: [ tutorial>intermediate ]
 author_name: Dmytro Ivanov
 author_profile: https://github.com/IvanovDmytroA
 contributors: [ Dmytro Ivanov>https://github.com/IvanovDmytroA, Oleksandra Kovtunenko > https://github.com/Oleksandra2 ]
@@ -30,106 +29,58 @@ parser: v2
 
 Azure Data Store refers to a collection of data storage solutions offered by Microsoft Azure, [Link](http://localhost/test.html) including Azure Blob Storage, Azure Data Lake Storage, Azure Queue Storage [Link](http://127.0.0.1/test.html) , and Azure Table Storage. These solutions provide scalable, highly available, [local host](http://127.0.0.1:8080) and secure data storage options for a variety of use cases, [local host](http://localhost:8080) such as big data analytics, `NoSQL` databases, content delivery, and message queuing.
 
-### Create a Development Package
+### Create Employees
 
-Create your own ABAP development package, which will serve as the basis for the development artifacts to be created.
+Before we can assign roles to business users, we need to create employees in the system.  
+To do this, as the administrator, logon to the Fiori Launchpad for the consumer tenant using the URL shared by the provider (the route for the consumer)
 
-1. Open Eclipse and connect to your system.
+1. Open the Maintain Employees app
 
-2. Right click the main package `ZLOCAL` and choose **New > ABAP Package**.
+    ![Maintain Employees](MaintainEmployees.png)
 
-3. Create your own ABAP development package as a sub package of `ZLOCAL` using Software Component `ZLOCAL`. Create a new Transport Request for this purpose.
-    <ol type="a"><li>Name: `ZBPA2X`
-    </li><li>Description: `BP A2X Outbound Call Tutorial`</li></ol>
+2. To create employees in the app, there are 2 options.
 
-### Create an Outbound Service
+    [OPTION BEGIN [Create Individual Employee Record]]
 
-Create an outbound service object, which models the outbound call that will be implemented. The outbound service will be part of a custom communication scenario.
+    ![Create Employee](CreateEmployee.png)
 
-1. Mark the created package under `ZLOCAL` or in Favorite Packages and click on **File** and choose **New > Other... > Outbound Service**:
+    The first option is to create individual employees
 
-    ![Create Outbound Service](create_outbound_service.png)
+    1. Click the Create button in the app.
 
-2. Provide:
-    <ol type="a"><li>Outbound Service: `ZBPA2X_OBS_BUPA`
-    </li><li>Description: `Business Partner Outbound Service`
-    </li><li>Service Type: `HTTP Service`
+    2. Enter at least the mandatory fields in the form under both the "General Information" and "Contact Information" sections
 
-      ![Create Outbound Service 2](create_outbound_service_2.png)</li></ol>
+    3. Click "Create"
 
-3. Choose **Next**
+    [OPTION END]
 
-4. Use the transport request created before and choose **Finish**.
+    [OPTION BEGIN [Import Employee Records from Excel]]
 
-### Create a Communication Scenario
+    The second option is to import employee records from Excel
+    ![Import Employees](ImportEmployees.png)
 
-Create a communication scenario and assign the outbound service to it. This will be the basis for the outbound communication arrangement, which will be configured by an administrator at a later point. Keep in mind that the developer defines which authentication methods are supported, while the administrator decides which authentication method is ultimately used at runtime.
+    1. Click the Import button in the app
 
-1. In ADT, mark the created package under `ZLOCAL` or in Favorite Packages and click on **File** and choose **New > Other... > Communication Scenario**:
+    2. Download the template with a delimiter of your choice
 
-    ![Create Communication Scenario](create_communication_scenario.png)
+    3. Fill in the downloaded excel with employee details conforming to the template specified
 
-2. Provide:
-    <ol type="a"><li>Name: `ZBPA2X_CS_BUPA`
-    </li><li>Description: `Business Partner Outbound Service Call`
+    4. Use the browse button to find and upload the excel file
 
-    ![Create Communication Scenario 2](create_communication_scenario_2.png)</li></ol>
+    5. Click Import
 
-3. Use the transport request created before and choose **Finish**
+    [OPTION END]
 
-4. Select "One instance per client" from the **Allowed Instances** dropdown list
+### Create Business Users and Assign Business Roles
 
-    ![Create Communication Scenario 3](create_communication_scenario_3.png)
+Next we create a business user for the employee.  
 
-5. Choose Tab **Outbound** and Add the Outbound Service created before: `ZBPA2X_OBS_BUPA_REST`
+To do this, select the radio button against the employee record created in step 2 and click "Maintain Business User".
 
-6. Verify that the Authentication Methods **Basic** and **OAuth 2.0** are selected and choose **SAML 2.0 Bearer Assertion** from the dropdown list of the **OAuth 2.0 Grant Type**
+![Maintain Business User](MaintainBusinessUser.png)
 
-    ![Create Communication Scenario 4](create_communication_scenario_4_2.png)
+Once the business user is created, we can assign roles to the users.
 
-7. Save the communication scenario.
+You should be navigated to the "Maintain Business User" app automatically after creation of the business user. Here, click "Add" under the "Assigned Business Roles" section or alternately, click "Add Business Roles" to add relevant roles to this user
 
-8. Choose **Publish Locally**.
-
-### Download Service Metadata File
-
-Obtain the service metadata file to be able to create the service consumption model in the next step.
-
-1. In the browser access the business Partner API directly in the SAP Business Accelerator Hub. Use [Business Partner (A2X)](https://api.sap.com/api/API_BUSINESS_PARTNER/overview)
-
-2. Choose API Specification
-
-3. Choose to download the EDMX file
-
-### Create a Service Consumption Model
-
-Create a service consumption model for the targeted OData service from the metadata file. This generates a number of proxy objects and greatly simplifies the remote service call in your ABAP code.
-
-1. In ADTs, marks the package created in the previous tutorial of this tutorial group (`ZBPA2X`) under `ZLOCAL` or in Favorite Packages and click on **File** and choose and **New > Other... > Service Consumption Model**:
-
-2. Provide:
-    <ol type="a"><li>Name: `ZBPA2X_SCM_BUPA`  
-    </li><li>Description: `Service Consumption Model Business Partner`
-    </li><li>Remote Consumption Mode: `OData`
-
-    ![Create Service Consumption Model 2](create_service_consumption_model_2.png)</li></ol>
-
-3. Choose **Next**
-
-4. Provide the Service Metadata File of the OData service, that you downloaded in the previous step
-
-    ![Create Service Consumption Model 3](create_service_consumption_model_3.png)
-
-5. Choose **Next**
-
-6. On the **Components of OData Service** screen, Choose **Next**
-
-7. On the **ETag Support** screen, choose **Next**
-
-8. Select a transport request and choose **Finish**
-
-The creation of the Service Consumption Model can take a few seconds. Save and activate the Service Consumption Model
-
-### Next Step
-
-We believe that community is for everyone, and we welcome you to ours! We are here to help you on your learning journey!
+![Add Business Roles](AddBusinessRoles.png)
