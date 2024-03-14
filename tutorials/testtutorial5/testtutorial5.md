@@ -20,7 +20,7 @@ parser: v2
 >**IMPORTANT** Before you start this tutorial with SAP AI Launchpad, it is recommended that you should set up at least one other tool, either Postman or Python (SAP AI Core SDK) because some steps of this tutorial cannot be performed with SAP AI Launchpad.
 
 ## You will learn
-- About Azure data store?
+- About Azure data store
 - To setup Azure for use with AI core?
 - Setup Azure data buckets for use with AI Core.
 
@@ -42,9 +42,9 @@ To do this, as the administrator, logon to the Fiori Launchpad for the consumer 
 
     [OPTION BEGIN [Create Individual Employee Record]]
 
-    ![Create Employee](CreateEmployee.png)
+        ![Create Employee](CreateEmployee.png)
 
-    The first option is to create individual employees
+        The first option is to create individual employees
 
         1. Click the Create button in the app.
 
@@ -56,8 +56,8 @@ To do this, as the administrator, logon to the Fiori Launchpad for the consumer 
 
     [OPTION BEGIN [Import Employee Records from Excel]]
 
-    The second option is to import employee records from Excel
-    ![Import Employees](ImportEmployees.png)
+        The second option is to import employee records from Excel
+        ![Import Employees](ImportEmployees.png)
 
         1. Click the Import button in the app
 
