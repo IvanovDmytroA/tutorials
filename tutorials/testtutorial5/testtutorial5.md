@@ -84,3 +84,41 @@ Once the business user is created, we can assign roles to the users.
 You should be navigated to the "Maintain Business User" app automatically after creation of the business user. Here, click "Add" under the "Assigned Business Roles" section or alternately, click "Add Business Roles" to add relevant roles to this user
 
 ![Add Business Roles](AddBusinessRoles.png)
+
+### Create Role From Template for Business Configurations
+
+To handle business configuration entries, we have apps provided under the "Business Configuration" group on the Fiori Launchpad. To gain access to this group, a user needs to have the "BPC\_EXPERT" role assigned.
+
+1. As administrator in the Fiori Launchpad for the consumer, open the "Maintain Business Roles" app
+2. Click the "Create from Template" button and use the value help for template selection to choose "SAP\_BR\_BPC\_EXPERT"
+![Business Process Configuration Export](BPCExpert.png)
+3. This creates a new role with the required catalogs already assigned. Add the relevant business users to whom this role shall be assigned under the "Assigned Business Users" tab
+![Users for BPC Expert](UsersForBPCExpert.png)
+4. Maintain relevant restrictions for read/write using the "Maintain Restrictions" button
+5. Save the role
+
+### Custom Business Configurations
+
+The users with assigned  SAP\_BR\_BPC\_EXPERT rsole should now be able to see the applications under the "Business Configuration" group of the Fiori Launchpad.
+
+ ![Business Configuration](CustomBusinessConfig.png)
+
+[OPTION BEGIN [Custom Business Configurations]]
+
+The "Custom Business Configurations app" can be used to maintain data for configuration tables in the SaaS application if a business configuration maintenance object is registered. Refer [documentation](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/508d406ac92043dba95f694144803c26.html?locale=en-US) for more details
+
+[OPTION END]
+
+[OPTION BEGIN  [Upload Business Configuration]]
+
+The "Upload Business Configuration" app can be used to upload data via excel import for various configuration tables of the SaaS application.
+
+1. Open the "Upload Business Configuration" app.
+2. Use the value help to select the object for which data has to be maintained.
+3. Under the "Upload File" section, download the file template.
+4. Fill in the downloaded template with suitable data conforming to the provided template.
+5. Add attachment, review the data and confirm deployment.
+
+![Upload Business Configuration](UploadBC.png)
+
+[OPTION END]
