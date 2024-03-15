@@ -10,7 +10,7 @@ primary_tag: software-product>sap-ai-core
 parser: v2
 ---
 # Setup Azure Data Bucket with AI Core Test Tutorial
-<!-- description -->Set up azure bucket (Azure Blob Storage) with SAP AI Core.
+<!-- description --> For key user extensibility connect SAP Business Application Studio and an SAP S/4HANA Cloud system using SAML assertion authentication to develop custom UIs. If you want to create a custom SAP Fiori app with developer extensibility check out [Develop an SAP Fiori App to Trigger Purchase Requisitions API](https://developers.sap.com/group.sap-fiori-app-purchase-req.html)
 
 ## Prerequisites
 - An existing Azure account with Admin access to create and use Azure Data store.
@@ -40,36 +40,7 @@ To do this, as the administrator, logon to the Fiori Launchpad for the consumer 
 
 2. To create employees in the app, there are 2 options.
 
-[OPTION BEGIN [Create Individual Employee Record]]
-
-![Create Employee](CreateEmployee.png)
-
-The first option is to create individual employees
-
-1. Click the Create button in the app.
-
-2. Enter at least the mandatory fields in the form under both the "General Information" and "Contact Information" sections
-
-3. Click "Create"
-
-[OPTION END]
-
-[OPTION BEGIN [Import Employee Records from Excel]]
-
-The second option is to import employee records from Excel
-![Import Employees](ImportEmployees.png)
-
-1. Click the Import button in the app
-
-2. Download the template with a delimiter of your choice
-
-3. Fill in the downloaded excel with employee details conforming to the template specified
-
-4. Use the browse button to find and upload the excel file
-
-5. Click Import
-
-[OPTION END]
+<!-- description --> For key user extensibility connect SAP Business Application Studio and an SAP S/4HANA Cloud system using SAML assertion authentication to develop custom UIs. If you want to create a custom SAP Fiori app with developer extensibility check out [Develop an SAP Fiori App to Trigger Purchase Requisitions API](https://developers.sap.com/group.sap-fiori-app-purchase-req.html)
 
 ### Create Business Users and Assign Business Roles
 
