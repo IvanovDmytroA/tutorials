@@ -6,7 +6,7 @@ tags: [ tutorial>intermediate ]
 author_name: Dmytro Ivanov
 author_profile: https://github.com/IvanovDmytroA
 contributors: [ Dmytro Ivanov>https://github.com/IvanovDmytroA, Oleksandra Kovtunenko > https://github.com/Oleksandra2 ]
-primary_tag: software-product>sap-ai-core
+primary_tag: software-product>sap-build
 parser: v2
 ---
 # Setup Azure Data Bucket with AI Core Test Tutorial
