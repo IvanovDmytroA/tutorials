@@ -2,7 +2,7 @@
 keywords: Azure
 auto_validation: true
 time: 10
-tags: [ tutorial>intermediate, agreements:business_network_privacy_statement/nps ]
+tags: [ tutorial>intermediate, agreements:business_network_privacy_statement/nps, thismytag>mytagisgreat ]
 author_name: Dmytro Ivanov
 author_profile: https://github.com/IvanovDmytroA
 contributors: [ Dmytro Ivanov>https://github.com/IvanovDmytroA, Oleksandra Kovtunenko > https://github.com/Oleksandra2 ]
