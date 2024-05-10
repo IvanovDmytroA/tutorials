@@ -6,7 +6,7 @@ tags: [ tutorial>intermediate, agreements:business_network_privacy_statement/nps
 author_name: Dmytro Ivanov
 author_profile: https://github.com/IvanovDmytroA
 contributors: [ Dmytro Ivanov>https://github.com/IvanovDmytroA, Oleksandra Kovtunenko > https://github.com/Oleksandra2 ]
-primary_tag: agreements:business_network_privacy_statement/nps
+primary_tag: software-product>sap-build
 parser: v2
 ---
 # Setup Azure Data Bucket with AI Core Test Tutorial
@@ -14,7 +14,7 @@ parser: v2
 
 ## Prerequisites
 - An existing Azure account with Admin access to create and use Azure Data store.
-- TODO establish the setup prerequisites for SAP AI Core ?
+- TODO establish the setup prerequisites for SAP AI Core ??
 ![image](img/azure-dashboard.png)
 
 >**IMPORTANT** Before you start this tutorial with SAP AI Launchpad, it is recommended that you should set up at least one other tool, either Postman or Python (SAP AI Core SDK) because some steps of this tutorial cannot be performed with SAP AI Launchpad.
