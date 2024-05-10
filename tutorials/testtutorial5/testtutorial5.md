@@ -2,11 +2,11 @@
 keywords: Azure
 auto_validation: true
 time: 10
-tags: [ tutorial>intermediate ]
+tags: [ tutorial>intermediate, agreements:business_network_privacy_statement/nps ]
 author_name: Dmytro Ivanov
 author_profile: https://github.com/IvanovDmytroA
 contributors: [ Dmytro Ivanov>https://github.com/IvanovDmytroA, Oleksandra Kovtunenko > https://github.com/Oleksandra2 ]
-primary_tag: software-product>sap-build
+primary_tag: agreements:business_network_privacy_statement/nps
 parser: v2
 ---
 # Setup Azure Data Bucket with AI Core Test Tutorial
