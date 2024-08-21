@@ -52,11 +52,7 @@ YouTube
 
 DGL First
 
-<iframe width="560" height="315" src="https://d.dam.sap.com/m/BSTcMN7/hls.m3u8" frameborder="0" allowfullscreen></iframe>
-
-DGL Second
-
-<iframe width="560" height="315" src="https://d.dam.sap.com/a/BSTcMN7?rc=19&doi=SAP1082519" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.sap.com/dam/site/sapcom/multimedia/2024/05/3e00d7f2-be7e-0010-bca6-c68f7e60039b.mp4" frameborder="0" allowfullscreen></iframe>
 
 
 To do this, select the radio button against the employee record created in step 2 and click "Maintain Business User".
