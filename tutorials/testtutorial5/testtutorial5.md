@@ -9,11 +9,21 @@ contributors: [ Dmytro Ivanov>https://github.com/IvanovDmytroA, Oleksandra Kovtu
 primary_tag: software-product>sap-build
 parser: v2
 ---
+
 # Get an Overview of Building and Maintaining SaaS Applications on SAP BTP, ABAP Environment
 <!-- description -->  Overview of developing and deploying custom SaaS applications on SAP Business Technology Platform, ABAP Environment
 
 ## Prerequisites
-	@@ -28,8 +27,6 @@ primary_tag: software-product>sap-btp--abap-environment
+- You've purchased entitlements that are necessary for the account setup. See [Prepare](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/3bf575a3dc5043f895f8bd411d2a86a1.html?locale=en-US&version=Cloud#loio4338854e3133407abb47d3a281dbd1e1)
+- You've registered a namespace at SAP, for example /NAMESPC/. See [Register a Namespace](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/3bf575a3dc5043f895f8bd411d2a86a1.html?locale=en-US&version=Cloud#loiocc5a3c6f78cf4889960c314dd09a5060)
+- You've registered your add-on at SAP, for example /NAMESPC/PRODUCTX. See [Register a Product](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/dc15fb4ebab5453fa4641b98190b1f85.html?locale=en-US&version=Cloud)
+- You've created a technical communication user, for example with the credentials ID `TechUserAAKaaS`.
+- You've created a technical platform user as a space member in Cloud Foundry, for example with the credentials ID `CFPlatform`.
+- You've configured an ASP\_CC destination for cloud controller access in the 05 Provide subaccount in the global account for development based on the credentials of the technical Cloud Foundry platform user. See [Create a Destination for the Cloud Foundry Cloud Controller Access](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/35b5acbb32024aa6b90a22e9f957a9f6.html?locale=en-US&version=Cloud).
+## You will learn
+- About SaaS enablement of an add-on product on SAP Business Technology Platform, ABAP Environment
+- The End-End process for building and deploying an add-on product on ABAP Environment and providing it as multitenant application
+## Intro
 
 This tutorial is intended as an overview of the necessary steps, and provides a sneak-peak into the overall process. Detailed steps on how to achieve this will be covered in further tutorials of this mission.
 
